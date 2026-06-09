@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Corelab Landing Page"
+version = "1.0.0"
+id = "artifacts/corelab"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 18270
+
+[services.development]
+run = "pnpm --filter @workspace/corelab run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/corelab", "run", "build" ]
+publicDir = "artifacts/corelab/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "18270"
+BASE_PATH = "/"

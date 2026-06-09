@@ -1,0 +1,275 @@
+Requirement sudah cukup lengkap untuk menyusun dokumen awal Corelab.
+
+## Ringkasan Requirement Corelab
+
+### Informasi Dasar
+
+* Nama Website: Corelab
+* Nama Brand: Corelab
+* Jenis Website: Landing Page
+* Tujuan:
+
+  * Mendapatkan pelanggan baru
+  * Menampilkan layanan yang tersedia
+  * Memudahkan pelanggan menghubungi melalui WhatsApp
+
+### Target Pengguna
+
+* Anak muda
+* Orang tua
+* Masyarakat umum yang kurang memahami IT
+* Pengguna laptop/komputer yang mengalami kendala teknis
+
+### Area Layanan
+
+* Cirebon
+* Home Service
+* Remote Service
+
+### Layanan Utama
+
+* Install ulang Windows
+* Instalasi software (Office, Adobe, dll.)
+* Update dan instalasi driver
+* Pembersihan virus/malware
+* Upgrade atau penggantian sistem operasi
+
+### Informasi Kontak
+
+* WhatsApp: 084568486522
+* Alamat: Desa Cengkareng, Jl. Panggonan Tujuh Blok Asem RT 01 RW 01
+* Jam Operasional: 10.00–18.00
+
+### Branding & Desain
+
+* Logo: Text logo "Corelab"
+* Gaya: Modern, Minimalis, Profesional
+* Warna:
+
+  * Oranye
+  * Biru
+  * Putih
+
+### Social Proof
+
+* 3 Testimoni pelanggan
+* Belum memiliki foto hasil pekerjaan
+
+### CTA
+
+* Konsultasi melalui WhatsApp
+* Harga diberikan setelah konsultasi
+* Tidak ada form booking
+* Tidak ada checkout online
+
+---
+
+# Sitemap
+
+Landing Page (Single Page)
+
+1. Hero Section
+2. Tentang Corelab
+3. Layanan
+4. Keunggulan
+5. Cara Kerja
+6. Testimoni
+7. FAQ
+8. Kontak
+9. Footer
+
+---
+
+# User Flow
+
+### Pengunjung Baru
+
+Masuk Website
+↓
+Melihat Hero Section
+↓
+Melihat Layanan
+↓
+Melihat Keunggulan
+↓
+Membaca Testimoni
+↓
+Klik Tombol WhatsApp
+↓
+Chat Admin Corelab
+↓
+Konsultasi
+↓
+Deal Service
+
+---
+
+# Struktur Halaman Landing Page
+
+## Hero Section
+
+Headline:
+
+> Laptop Lemot, Error, atau Terkena Virus? Corelab Siap Membantu.
+
+Subheadline:
+
+> Jasa install ulang, update driver, pembersihan virus, dan instalasi software untuk wilayah Cirebon.
+
+CTA:
+
+* Konsultasi WhatsApp
+* Lihat Layanan
+
+---
+
+## Tentang Corelab
+
+Menjelaskan:
+
+* Siapa Corelab
+* Fokus layanan software
+* Home service & remote service
+* Area layanan Cirebon
+
+---
+
+## Layanan
+
+Card layanan:
+
+* Install Ulang Windows
+* Instalasi Software
+* Update Driver
+* Pembersihan Virus
+* Upgrade Sistem Operasi
+
+---
+
+## Keunggulan
+
+* Respon cepat
+* Bisa home service
+* Bisa remote service
+* Harga transparan setelah konsultasi
+* Pengerjaan profesional
+
+---
+
+## Cara Kerja
+
+1. Hubungi WhatsApp
+2. Jelaskan masalah
+3. Analisis kebutuhan
+4. Pengerjaan service
+5. Selesai
+
+---
+
+## Testimoni
+
+Menampilkan 3 testimoni pelanggan.
+
+---
+
+## FAQ
+
+Contoh:
+
+Q: Apakah bisa datang ke rumah?
+A: Ya.
+
+Q: Apakah bisa service jarak jauh?
+A: Ya.
+
+Q: Berapa biaya service?
+A: Setelah konsultasi dan pengecekan kebutuhan.
+
+---
+
+## Kontak
+
+* WhatsApp
+* Jam operasional
+* Alamat
+* Google Maps
+
+---
+
+# Technical Specification
+
+### Frontend
+
+* Next.js
+* TypeScript
+* Tailwind CSS
+
+### UI Components
+
+* shadcn/ui
+
+### Animasi
+
+* Framer Motion
+
+### SEO
+
+* Meta Title
+* Meta Description
+* Open Graph
+* Sitemap XML
+
+### Hosting
+
+* Vercel
+
+### Domain
+
+* corelab.id (rekomendasi jika tersedia)
+
+---
+
+# Struktur Folder Project
+
+```text
+corelab/
+│
+├── app/
+│   ├── page.tsx
+│
+├── components/
+│   ├── Hero.tsx
+│   ├── About.tsx
+│   ├── Services.tsx
+│   ├── Advantages.tsx
+│   ├── Process.tsx
+│   ├── Testimonials.tsx
+│   ├── FAQ.tsx
+│   ├── Contact.tsx
+│   ├── Footer.tsx
+│
+├── public/
+│   ├── images/
+│
+├── data/
+│   ├── services.ts
+│   ├── testimonials.ts
+│   ├── faq.ts
+│
+└── lib/
+```
+
+---
+
+# Informasi yang Masih Kurang
+
+Sebelum membuat **Prompt AI Coding final**, saya masih membutuhkan 3 data:
+
+1. Nama lengkap pemilik atau admin yang akan ditampilkan di website (opsional).
+2. Tiga testimoni pelanggan yang ingin ditampilkan.
+3. Apakah ingin menggunakan bahasa:
+
+   * Indonesia saja
+   * Indonesia + Inggris
+
+Setelah 3 informasi ini diisi, saya bisa membuat Prompt AI Coding yang sangat detail untuk Cursor, Claude Code, atau GitHub Copilot.
